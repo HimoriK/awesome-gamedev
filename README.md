@@ -8,41 +8,8 @@ A curated list of stuff related to the development of games.
 * [Graphics](#graphics)
 * [Graphics Tools](#graphics-tools)
 * [Learning Resources](#learning-resources)
-  * [Music](#music-1)
   * [Programming](#programming)
-    * [Beginner](#beginner-1)
-    * [Intermediate](#intermediate)
-    * [Reference](#reference)
 * [Programming Frameworks and Libraries](#programming-frameworks-and-libraries)
-
-## Assorted Assets ##
-
-This contains collections of miscellaneous assets of different kinds.
-
-* [Openclipart][288] - A giant collection of clip art. [CC0][289].
-* [OpenGameArt.org][7] - A large collection of art intended for game
-  development. Various licenses, including free ones.
-* [Wikimedia Commons][97] - A collection of various assets of all kinds. Various
-  licenses, all CC or free-er.
-* [Open Source Game Clones][392] - A collection of open source videogames that
-  are clones of old games.
-
-## Audio ##
-
-### Editors ###
-
-* [Ardour][130] - The digital audio workstation. [GNU GPLv2][14] or later.
-* [Audacity][33] - Software for recording and editing sounds. [GNU GPLv2][14] or
-  later.
-* [Beast][133] - Music composition and modular synthesis
-  software. [GNU LGPLv3][38] or later.
-* [Hydrogen][366] - An advanced drum machine, with a free drum kit
-  included. [GNU GPLv2][14] or later.
-* [MilkyTracker][34] - Multi-platform application for creating .mod and .xm
-  module files. [GNU GPLv3][23] or later.
-* [Musagi][35] - A large and sophisticated music editor. [Expat][11].
-* [MuseScore][422] - A music notation program capable of generating engraved scores and audio and MIDI files. [GNU GPLv2][14] or later.
-* [rFXGen][391] -  a tool to generate sound waves procedurally. [zlib][45]
 
 ### General ###
 
@@ -85,26 +52,7 @@ This contains collections of miscellaneous assets of different kinds.
 * [SoundBible's Royalty-free section][32] - A collection of CC or
   public-domain-licensed sounds. Various licenses, all CC or public domain.
 
-## Communities ##
-
-Gamedev can be a lonely job, and it also can have a steep learning curve. These
-communities are designed to assist you in terms of camaraderie, expert knowledge
-and resources.
-
-* [/r/freeculture][316] - Part of the Free Culture Reddit Community. A general
-  free-culture-focused community.
-* [/r/FreeGaming][94] - Part of the Free Culture Reddit Community. Designed
-  specifically for discussion of free culture games.
-* [/r/freesoftware][323] - A general free-software-focused community.
-* [/r/godot][185] - A community for discussion and support in development with
-  the Godot game engine.
-* [FreeGameDev Forums][326] - A forum community for all things free-game-development-related.
-* [FreeGaming][324] - A [freepo.st][325] community dedicated to free gaming.
-* [Libregamewiki][327] - The free gaming encyclopedia.
-
 ## Engines ##
-
-These are full-blown game engines.
 
 ### General ###
 
@@ -136,8 +84,6 @@ These are full-blown game engines.
   games. [GNU LGPLv3][38] or later.
 * [Fillwave][374] - Implemented in C++. Has an easy graphics API. [FreeBSD][17].
 * [Flambe][329] - Implemented in Haxe. Designed for 2D games. [Expat][11].
-* [FLARE][54] - Implemented in C++. Designed for action RPGs. [GNU GPLv3][23] or
-  later.
 * [Fluxus][137] - Implemented in C++. Designed for livecoding
   worlds. [GNU GPLv2][14] or later.
 * [Free Hero Mesh][432] - Implemented in C. Designed for turn-based grid-based 2D puzzle games. Public domain.
@@ -146,7 +92,6 @@ These are full-blown game engines.
 * [GDevelop][60] - Implemented in C++. Targeted at non-programmers. [Expat][11]
   (IDE is [GNU GPLv3][23] only.)
 * [GNU FreeDink][47] - Implemented in C++. [GNU GPLv3][23] or later.
-* [Godot][51] - Implemented in C++. Has [its own scripting language][52]. [Expat][11].
 * [Gosu][318] - Implemented in C++. has a Ruby interface. [Expat][11].
 * [Helm][83] - Implemented in Haskell. [Expat][11].
 * [HERITAGE][123] - Implemented in ECMAScript. Designed for text adventure
@@ -234,38 +179,16 @@ Unless stated otherwise, these engines are implemented in ECMAScript.
 
 * [Hypatia][416] - A pure-C math library for 2D/3D graphics (matrix, vector, quaternion) Seeks to be close to C89/C90 compliant for portability. [MIT][403].
 
-## Fonts ##
-
-* [Google Fonts][232] - A collection of freely-licensed fonts. [OFL][302].
-* [Open Font Library][301] - A collection of freely licensed fonts. [OFL][302].
-* [ParaType Public Fonts for Minority Languages of Russia][346] - Three
-  freely-licensed fonts with support for many character
-  sets. [ParaType Free Font Licensing Agreement][347].
-* [The League of Moveable Type][303] - A collection of fonts with high
-  standards. [OFL][302].
-
 ## Games ##
 
 ### C ###
-
-* [2048-cli][216] - A CLI version of 2048. [Expat][11] (code), no significant assets.
-* [2048-in-terminal][217] - A CLI version of 2048. [Expat][11] (code), no
-  significant assets.
 * [Craft][226] - A 3D voxel world game. [Expat][11] (code and assets).
-* [Curse of War][234] - A fast-paced strategy game. [GNU GPLv3][23] or later
-  (code and assets).
 * [The Legend of Edgar][214] - A 2D platform game with a persistent
   world. [GNU GPLv2][14] or later (code), various free culture licenses
   (assets).
-* [FallingTime][196] - An arcade game. [GNU GPLv2][14] or later (code),
-  various CC (no NC or ND) (assets).
 * [Taisei][199] - [Expat][11] (code and assets), [OFL][302] only for one font.
-* [Turtle Arena][204] - Third-person action game. [GNU GPLv3][23] or later
-  (code), various free culture licenses (assets).
-* [Wizznic][219] - A puzzle game. [GNU GPLv3][23] or later (code and assets).
 
 ### C++ ###
-
 * [Battle for Wesnoth][244] - A turn-based strategy game. [GNU GPLv2][14] or
   later (code and assets).
 * [Blackvoxel][225] - A voxel exploration and crafting game. [GNU GPLv3][23]
@@ -312,47 +235,16 @@ Unless stated otherwise, these engines are implemented in ECMAScript.
 * [Noiz2sa][428] - A classical vertical arcade shooter with an abstract theme and
   matching electronic music. [2-clause BSD][49] (code), no significant assets.
 
-### CoffeeScript ###
-
-* [coffee-snake][339] - A version of Snake. [GNU GPLv3][23] or later (code),
-  no significant assets.
-* [Zop][186] - A 'connect the dots' game. [Expat][11] (code), no significant assets.
-* [2014's ABA Games][426] - [Kenta Cho][425] has created 50 games in 2014.
-  ([git][427]). [MIT][403], no assets.
-
-### Java ###
-
-* [epic-inventor][354] - An indie, side-scrolling RPG. [GNU GPLv2][14] only
-  (code and assets).
-* [Ned et les maki][221] - A 3D puzzle game. [Expat][11]
-  (code), [FALv1.3][222] (assets).
-* [Newton Adventure][220] - A puzzle game. [3-clause BSD][29] (code), various
-  CC (no NC or ND) (assets).
-* [Mindustry][439] - The automation tower defense RTS. [GNU GPLv3][23]
-* [PuzzleGame][257] - A slider puzzle game. Uses Android port of Cocos2D
-  engine. [Expat][11] (code and assets).
-* [Terasology][230] - A 3D voxel world game. [Apache2.0][20] (code and assets).
-
 ### Other/Multiple ###
 
 * [Cataclysm: Dark Days Ahead][207] - A roguelike set in a post-apocalyptic
   world. [CC-BY-3.0][5] (code), [CC-BY-SA-3.0][127] (assets).
 * [DynaDungeons][194] - A version of Bomberman. Uses Godot
   engine. [GNU GPLv3][23] or later (code), various CC (no NC or ND) (assets).
-* [FLARE][211] - A dark fantasy 2D RPG. Uses FLARE engine. [GNU GPLv3][23] or
-  later (code), [CC-BY-SA-3.0][127] (assets).
-* [Pioneer][239] - A space exploration game. Implemented in C++ and
-  Lua. [GNU GPLv3][23] only (code), [CC-BY-SA-3.0][127] (assets).
-* [Source of Tales][242] - An MMORPG. Scripted using Lua (implementation
-  language unclear). [GNU GPLv3][23] or later (code), [CC-BY-SA-3.0][127]
-  and [GNU GPLv3][23] (assets).
 * [Tanks of Freedom][243] - Pixed-based turn-based strategy. Uses Godot
   engine. [Expat][11] (code and assets).
 * [Teeworlds][200] - Implemented in C and C++. [3-clause BSD][29]
   (code), [CC-BY-SA-3.0][127] (assets).
-* [Zero-K][249] - An RTS game. Uses Spring engine. [GNU GPLv2][14] or later
-  (code and assets).
-* [Haskell Games][429] - An index of Games written in Haskell. Various licenses.
 
 ### Python ###
 
@@ -371,9 +263,6 @@ Unless stated otherwise, these engines are implemented in ECMAScript.
 ## Graphics ##
 
 ### Assorted ###
-
-This is a section for everything else that doesn't fit in some other graphics category.
-
 * [Blender 3D Model Repository][296] - User-submitted 3D models made with
   Blender. Various licenses, including free ones.
 * [Blend Swap][355] - A community of Blender artists and their work. Various
@@ -388,9 +277,6 @@ This is a section for everything else that doesn't fit in some other graphics ca
   information when possible. Various licenses, including free ones.
 
 ### Collections ###
-
-This category contains any 'grab-bags' of different kinds of art assets.
-
 * [Free stuff by 7Soul1][3] - A collection of various game-related
   assets. Available in PNG. Public domain.
 * [openclipart][6] - A collection of various clip art. Available in PNG. Public domain.
@@ -490,7 +376,6 @@ This category contains any 'grab-bags' of different kinds of art assets.
 ### Graphics ###
 
 #### Beginner ####
-
 * [Blender 3D: Noob to Pro][286] - A Wikibook for learning how to make 3D
   graphics with Blender. [CC-BY-SA-3.0][127].
 
