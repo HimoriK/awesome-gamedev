@@ -1,66 +1,19 @@
 # Awesome Gamedev #
 
-A curated list of good stuff related to the development of games. This list
-contains *only* [free software][1] for code, sellers who aren't evil for
-physical resources, and [free cultural works][2] for assets.
-
-I have also provided a list of resources which are *not* free, and the reasons
-why, in the associated Wall of Shame file.
-
-This is released under a Creative Commons-Attribution-ShareAlike license,
-version 4.0. You can find its text in the `LICENSE.md` file.
-
-This project is part of [Peers][361] - a community for growing freedom. Support
-us today!
+A curated list of stuff related to the development of games.
 
 ## Table of Contents ##
-
-* [Assorted Assets](#assorted-assets)
-* [Audio](#audio)
-  * [Editors](#editors)
-  * [Music](#music)
-  * [Sound Effects](#sound-effects)
-* [Communities](#communities)
-* [Engines](#engines)
-  * [General](#general)
-  * [HTML5](#html5)
-  * [Physics](#physics)
-* [Math](#math)
 * [Fonts](#fonts)
 * [Games](#games)
-  * [C](#c)
-  * [C++](#c)
-  * [CoffeeScript](#coffeescript)
-  * [Dart](#dart)
-  * [ECMAScript](#ecmascript)
-  * [Java](#java)
-  * [Other/Multiple](#othermultiple)
-  * [Python](#python)
-  * [Scala](#scala)
 * [Graphics](#graphics)
-  * [Assorted](#assorted)
-  * [Collections](#collections)
-  * [Icons](#icons)
-  * [Sprites](#sprites)
 * [Graphics Tools](#graphics-tools)
-  * [Animation](#animation)
-  * [Bitmap Compression](#bitmap-compression)
-  * [Editors](#editors-1)
-  * [Mesh Tools](#mesh-tools)
-  * [Spritesheet Tools](#spritesheet-tools)
-  * [Texture Tools](#texture-tools)
-  * [Voxel Editors](#voxel-editors)
 * [Learning Resources](#learning-resources)
-  * [Graphics](#graphics-1)
-    * [Beginner](#beginner)
   * [Music](#music-1)
   * [Programming](#programming)
     * [Beginner](#beginner-1)
     * [Intermediate](#intermediate)
     * [Reference](#reference)
-  * [Talks](#talks)
 * [Programming Frameworks and Libraries](#programming-frameworks-and-libraries)
-* [Utilities](#utilities)
 
 ## Assorted Assets ##
 
@@ -85,7 +38,6 @@ This contains collections of miscellaneous assets of different kinds.
   software. [GNU LGPLv3][38] or later.
 * [Hydrogen][366] - An advanced drum machine, with a free drum kit
   included. [GNU GPLv2][14] or later.
-* [LMMS][142] - A digital audio workstation. [GNU GPLv2][14] or later.
 * [MilkyTracker][34] - Multi-platform application for creating .mod and .xm
   module files. [GNU GPLv3][23] or later.
 * [Musagi][35] - A large and sophisticated music editor. [Expat][11].
@@ -229,8 +181,6 @@ These are full-blown game engines.
   language. [Expat][11].
 * [qfusion][206] - Implemented in C++. Designed for FPS games. [GNU GPLv2][14]
   or later.
-* [Ren'Py][107] - Implemented in Python. Designed for visual
-  novels. [Expat][11], with some parts under [GNU LGPLv3][38] only.
 * [SGE][387] - Implemented in Python. Designed for 2-D games. [GNU GPLv3][23]
 * [SLUDGE][56] - Implemented in C++. Has its own scripting
   language. [GNU LGPLv3][38] only with the GTK Dev Kit [GNU GPLv3][23] or later.
@@ -271,7 +221,6 @@ Unless stated otherwise, these engines are implemented in ECMAScript.
 
 * [ammo.js][259] - Implemented in ECMAScript. A port of Bullet. [3-clause BSD][29].
 * [Box2D][48] - Implemented in C++. Designed to simulate rigid body physics. [zlib][45].
-* [Bullet][59] - Implemented in C++. General physics engine. [zlib][45].
 * [LiquidFun][396] - LiquidFun is a 2D rigid-body and fluid simulation C++ library for games based upon Box2D. [zlib][45].
 * [Matter.js][91] - Implemented in ECMAScript. Physics engine for HTML5. [Expat][11].
 * [ODE][117] - Open Dynamics Engine; implemented in C++. Designed to simulate
@@ -296,12 +245,6 @@ Unless stated otherwise, these engines are implemented in ECMAScript.
   standards. [OFL][302].
 
 ## Games ##
-
-These are meant to serve as examples for your own work, or foundations to built upon.
-
-I have endeavoured to provide both code and asset licenses here - if no asset
-license is listed, assume it to be non-free or questionably-free. These entries
-may be removed upon clarification.
 
 ### C ###
 
@@ -376,38 +319,6 @@ may be removed upon clarification.
 * [Zop][186] - A 'connect the dots' game. [Expat][11] (code), no significant assets.
 * [2014's ABA Games][426] - [Kenta Cho][425] has created 50 games in 2014.
   ([git][427]). [MIT][403], no assets.
-
-### Dart ###
-
-* [Hauberk][190] - A roguelike. [Expat][11] (code), no significant assets.
-* [Pop, Pop, Win!][183] - A version of Minesweeper. [3-clause BSD][29] (code
-  and assets).
-
-### ECMAScript ###
-
-* [2048][172] - The original, classic casual game. [Expat][11] (code and assets).
-* [A Dark Room][173] - A text adventure game. [MPLv2][166] (code), no
-  significant assets.
-* [Blockrain.js][177] - A version of Tetris. [Expat][11] (code and assets).
-* [BrowserQuest][165] - An MMORPG. [MPLv2][166] (code), [CC-BY-SA-3.0][127] (assets).
-* [Clumsy Bird][149] - A version of Flappy Bird. [Expat][11] (code and assets).
-* [Drunken Viking][178] - A top-down puzzle game. [Expat][11] (code), various
-  CC (no NC or ND) (assets).
-* [Freeciv-web][167] - A port of Freeciv. [GNU GPLv2][14] or later
-  and [GNU AGPLv3][27] or later (code and assets).
-* [ludum-dare-28][180] - [CC-BY-4.0][136] (code and assets).
-* [Masonry-JavaScript-Tetris-Clone][252] - Exactly what it says on the
-  tin. [Expat][11] (code and assets).
-* [Parity][181] - [Expat][11] (code), no significant assets.
-* [Particle Clicker][359] - An incremental game that teaches the history of
-  high-energy particle physics. [Expat][11] (code and assets).
-* [Prism][184] - A colour-matching game. [Expat][11] (code), no significant assets.
-* [Roguish][163] - A roguelike. [3-clause BSD][29] (code and assets).
-* [Snake][157] - A version of Snake. [Expat][11] (code), no significant assets.
-* [Sorades 13k][159] - A scrolling shooter. [CC-BY-SA-3.0][127] (code and assets).
-* [Space Crusade][160] - A space game. [Expat][11] (code), [CC0][289] (assets).
-* [Space Shooter][158] - Simple space shooting game. [Expat][11] (code).
-* [Squirts][191] - [Expat][11] (code and assets).
 
 ### Java ###
 
@@ -496,7 +407,6 @@ This category contains any 'grab-bags' of different kinds of art assets.
 * [Game-icons.net][4] - A constantly-growing collection of black-and-white
   icons. Available in SVG or PNG. [CC-BY-3.0][5].
 * [IconFontCppHeaders][412] - C and C++ headers for icon fonts [Font Awesome][405], [Material Design Icons][291] and [Kenney Game Icons][411]. [zlib][45]
-* [Kenney Game Icons][411] - A font pack specifically designed for (browser) games and other gaming related websites/projects. [CC0][289].
 * [Material Design Icons][291] - An official icon set from Google following
   specific guidelines. [Apache2.0][20].
 * [Tango Icon Library][300] - An icon set project with a goal to create a
@@ -525,8 +435,6 @@ This category contains any 'grab-bags' of different kinds of art assets.
 ### Editors ###
 
 * [Blender][25] - A 3D modelling and rendering editor. [GNU GPLv2][14] or later.
-* [GIMP][22] - The GNU Image Manipulation Program. Designed for photo
-  retouching, image composition and similar tasks. [GNU GPLv3][23] or later.
 * [GrafX2][310] - A bitmap paint program specialized for 256-color
   drawing. [GNU GPLv2][14] only.
 * [Hme][139] - A program for creating, manipulating and viewing height
@@ -557,11 +465,6 @@ This category contains any 'grab-bags' of different kinds of art assets.
 * [SpaceshipGenerator][376] - A Blender script allowing generation of spaceships
   from a random seed and some parameters. [Expat][11].
 
-### Spritesheet Tools ###
-
-* [Piskel][15] - Online pixel art and animated sprite creator. [GNU AGPLv3][27]
-  or later.
-
 ### Texture Tools ###
 
 * [AwesomeBump][141] - A program that generates normal, height, specular or
@@ -578,11 +481,6 @@ This category contains any 'grab-bags' of different kinds of art assets.
   models. [3-clause BSD][29].
 
 ## Learning Resources ##
-
-These are all collections of information to help you learn about things that
-might be necessary for developing games.
-
-We aim for *complete* and *current* resources here whenever possible.
 
 ### Game Design ###
 
@@ -768,18 +666,9 @@ an engine would.
   development. Implemented in C++. [GNU LGPLv2][102] or later.
 * [raylib][390] - Low-level library designed to learn videogames programming.
   Implemented in C, but has Lua and Go bindings. [zlib][45]
-* [SDL][46] - Another cross-platform library for low-level tasks, like creating
-  windows, accepting user input, and so forth. Implemented in C. [zlib][45].
-* [SFML][109] - Simple and Fast Multimedia Library; a multi-platform,
-  multi-language, multimedia interface to various computer hardware. Implemented
-  in C++. Has a [range of bindings][110]. [3-clause BSD][29].
 * [Slick2D][322] - A set of tools to make 2D game development
   easier. Implemented in Java. [3-clause BSD][29].
-* [Three.js][69] - A library that makes WebGL easy to use. Implemented in
-  ECMAScript. [Expat][11].
 * [Tracy][420] - C++ frame profiler. [3-clause BSD][29].
-* [voxel.js][67] - A multi-component framework for bulding voxel games for
-  modern browsers. Implemented in ECMAScript. [3-clause BSD][29].
 * [ZenGL][393] - A cross-platform game development library designed to provide
   necessary functionality for rendering 2D-graphics, handling input, sound output,
   etc. Implemented in Pascal. [zlib][394].
